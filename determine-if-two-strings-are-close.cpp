@@ -14,9 +14,8 @@ Given two strings, word1 and word2, return true if word1 and word2 are close, an
 using namespace std;
 class Solution {
 public:
-    bool cmp(pair<char,int>& a,pair<char,int> &b){
-        return a.second<b.second;
-    }
+    
+    
     bool closeStrings(string word1, string word2) {
         int n1=word1.length(),n2=word2.length();
         if(n1!=n2) return 0;
