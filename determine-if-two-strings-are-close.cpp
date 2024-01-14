@@ -44,9 +44,3 @@ public:
     }
 };
 
-int main(){
-    string word1="uau",word2="ssx";
-    Solution sol;
-    cout<<sol.closeStrings(word1,word2)<<endl;
-    return 0;
-}
